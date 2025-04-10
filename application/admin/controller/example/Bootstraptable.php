@@ -40,6 +40,7 @@ class Bootstraptable extends Backend
     public function index()
     {
         if ($this->request->isAjax()) {
+          
             list($where, $sort, $order, $offset, $limit) = $this->buildparams(null);
             $list = $this->model
                 ->where($where)
@@ -50,6 +51,7 @@ class Bootstraptable extends Backend
 
             return json($result);
         }
+      
         return $this->view->fetch();
     }
 

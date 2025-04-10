@@ -261,6 +261,7 @@ class Backend extends Controller
      */
     protected function buildparams($searchfields = null, $relationSearch = null)
     {
+       
         $searchfields = is_null($searchfields) ? $this->searchFields : $searchfields;
         $relationSearch = is_null($relationSearch) ? $this->relationSearch : $relationSearch;
         $search = $this->request->get("search", '');

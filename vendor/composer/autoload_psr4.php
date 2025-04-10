@@ -9,7 +9,7 @@ return array(
     'think\\helper\\' => array($vendorDir . '/topthink/think-helper/src'),
     'think\\composer\\' => array($vendorDir . '/topthink/think-installer/src'),
     'think\\captcha\\' => array($vendorDir . '/topthink/think-captcha/src'),
-    'think\\' => array($vendorDir . '/fastadminnet/fastadmin-addons/src', $baseDir . '/thinkphp/library/think', $vendorDir . '/topthink/think-queue/src'),
+    'think\\' => array($vendorDir . '/topthink/think-queue/src', $vendorDir . '/fastadminnet/fastadmin-addons/src', $baseDir . '/thinkphp/library/think'),
     'addons\\' => array($baseDir . '/addons'),
     'ZipStream\\' => array($vendorDir . '/maennchen/zipstream-php/src'),
     'Tx\\' => array($vendorDir . '/fastadminnet/fastadmin-mailer/src'),

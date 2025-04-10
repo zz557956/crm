@@ -113,9 +113,9 @@ class ComposerStaticInitf3106b6ef3260b6914241eab0bed11c1
         ),
         'think\\' => 
         array (
-            0 => __DIR__ . '/..' . '/fastadminnet/fastadmin-addons/src',
-            1 => __DIR__ . '/../..' . '/thinkphp/library/think',
-            2 => __DIR__ . '/..' . '/topthink/think-queue/src',
+            0 => __DIR__ . '/..' . '/topthink/think-queue/src',
+            1 => __DIR__ . '/..' . '/fastadminnet/fastadmin-addons/src',
+            2 => __DIR__ . '/../..' . '/thinkphp/library/think',
         ),
         'addons\\' => 
         array (

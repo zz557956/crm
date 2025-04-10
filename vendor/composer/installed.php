@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'fastadminnet/fastadmin',
-        'pretty_version' => '1.x-dev',
-        'version' => '1.9999999.9999999.9999999-dev',
-        'reference' => '87d4163a8906dafb45f487ff71e7d40905ac704b',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '12b9dd3729abb139e52e99433f6a8ee0637a2a23',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -38,9 +38,9 @@
             'dev_requirement' => false,
         ),
         'fastadminnet/fastadmin' => array(
-            'pretty_version' => '1.x-dev',
-            'version' => '1.9999999.9999999.9999999-dev',
-            'reference' => '87d4163a8906dafb45f487ff71e7d40905ac704b',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '12b9dd3729abb139e52e99433f6a8ee0637a2a23',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

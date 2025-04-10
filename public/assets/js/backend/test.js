@@ -24,6 +24,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                 sortName: 'weigh',
                 fixedColumns: true,
                 fixedRightNumber: 1,
+                searchFormTemplate: 'customformtpl',
                 columns: [
                     [
                         {checkbox: true},
